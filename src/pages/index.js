@@ -4,8 +4,8 @@ import Layout from "../components/Layout";
 const index = () => {
   return (
     <Layout>
-      <h1>Welcome to the Home Page!</h1>
-      <p>This is the content for the homepage.</p>
+      <h1 className="text-center py-5 h-[80vh]">Welcome to the Home Page!</h1>
+
     </Layout>
   );
 };

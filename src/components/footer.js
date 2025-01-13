@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer>
-      <p>&copy; 2025 My Gatsby Site</p>
+      <h1 className="font-bold text-2xl text-center">Footer</h1>
     </footer>
   );
 };
