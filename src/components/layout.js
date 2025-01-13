@@ -1,18 +1,16 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
- */
-
 import * as React from "react"
-
+import Header from "./Header";
+import Footer from "./footer";
+import Seo from "./Seo";
 const Layout = ({ children }) => {
   return (
-
-   <div>{children}</div>
-
+    <>
+      <Seo />
+      <Header />
+      <main>{children}</main> 
+      <Footer />
+    </>
   )
-}
+};
 
-export default Layout
+export default Layout;
