@@ -2,9 +2,10 @@ import React from "react";
 import hands from "../../images/hands.png";
 import { AiOutlineUsergroupDelete } from "react-icons/ai";
 import { MdOutlinePayment } from "react-icons/md";
+import tochfig from "../../images/tochFing.png"
 const Achievements = () => {
   return (
-    <section className="py-12 px-10 bg-[#F5F7FA]">
+    <section className="py-20 px-10 bg-[#F5F7FA]">
       <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between">
           {/* Left Content */}
@@ -44,8 +45,9 @@ const Achievements = () => {
 
             {/* Stat 3 */}
             <div className="flex items-center space-x-3">
-              <div className="text-green-500 text-3xl">
-                <i className="fas fa-calendar-check"></i>
+            <div>
+                <img src={tochfig} alt="hands" className="w-12 h-12" />
+                
               </div>
               <div>
                 <p className="text-xl font-bold text-gray-800">828,867</p>
