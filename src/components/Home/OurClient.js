@@ -13,7 +13,7 @@ function OurClient() {
         <h1 className='font-semibold text-2xl mb-4'>Our Client</h1>
         <p className='text-[#717171]'>We have been working with some Fortune 500+ clients</p>
     </div>
-        <div className='flex items-center justify-between'>
+        <div className='flex flex-wrap items-center justify-between'>
             <img src={logo1} alt='Client 1' className='W-24 h-24' />
             <img src={logo2} alt='Client 2' className='W-24 h-24' />
             <img src={logo3} alt='Client 3' className='W-24 h-24' />

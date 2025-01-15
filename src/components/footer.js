@@ -1,4 +1,8 @@
 import React from "react";
+import { BsInstagram, BsYoutube } from "react-icons/bs";
+import { FaFacebook, FaTwitterSquare } from "react-icons/fa";
+import { IoIosSend } from "react-icons/io";
+import { TbRings } from "react-icons/tb";
 
 const Footer = () => {
   return (
@@ -7,32 +11,32 @@ const Footer = () => {
         {/* Logo and Copyright */}
         <div>
           <h2 className="text-2xl font-bold text-white mb-4">Nexcent</h2>
-          <p className="text-sm">
+          <p className="text-sm space-y-4">
             Copyright © 2020 Nexcent ltd.
             <br />
             All rights reserved
           </p>
           {/* Social Icons */}
-          <div className="flex space-x-4 mt-4">
+          <div className="flex space-x-4 mt-8">
             <a href="#" className="text-gray-400 hover:text-white">
-              <i className="fab fa-instagram"></i>
+              <BsInstagram/>
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <i className="fab fa-dribbble"></i>
+          <FaFacebook/>
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <i className="fab fa-twitter"></i>
+              <FaTwitterSquare/>
             </a>
             <a href="#" className="text-gray-400 hover:text-white">
-              <i className="fab fa-youtube"></i>
+              <BsYoutube/>
             </a>
           </div>
         </div>
 
         {/* Company Links */}
-        <div>
+        <div className="space-y-4 ">
           <h3 className="text-lg font-semibold text-white mb-4">Company</h3>
-          <ul>
+          <ul className="space-y-4">
             <li>
               <a href="#" className="text-gray-400 hover:text-white">
                 About us
@@ -62,9 +66,9 @@ const Footer = () => {
         </div>
 
         {/* Support Links */}
-        <div>
+        <div className="space-y-4">
           <h3 className="text-lg font-semibold text-white mb-4">Support</h3>
-          <ul>
+          <ul className="space-y-4">
             <li>
               <a href="#" className="text-gray-400 hover:text-white">
                 Help center

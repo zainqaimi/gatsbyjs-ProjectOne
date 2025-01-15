@@ -44,7 +44,7 @@ const Hero = () => {
       <Slider {...settings}>
         {slides.map((slide, index) => (
           <div key={index} className="overflow-hidden">
-          <div className="flex items-center justify-between p-10">
+          <div className="md:flex items-center justify-between p-10 md:space-y-0 space-y-6">
             {/* Text Section */}
             <div className="">
               <h1 className="text-4xl font-bold leading-tight text-gray-800">
@@ -61,7 +61,7 @@ const Hero = () => {
               <img
                 src={slide.image.hero}
                 alt="Hero Slide"
-                className="h-[500px] w-[500px]"
+                className="md:h-[500px] md:w-[500px]"
               />
             </div>
           </div>
